@@ -2,52 +2,27 @@ import React from 'react'
 
 export default function Navbar() {
     return (
-        // <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-        //     <div class="container-fluid">
-        //         <a class="navbar-brand" href="https://www.google.com.ar">LOGO</a>
-        //         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-        //         <span class="navbar-toggler-icon"></span>
-        //         </button>
-        //         <div class="collapse navbar-collapse" id="navbarScroll">
-        //             <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
-        //                 <li class="nav-item">
-        //                     <a class="nav-link active" aria-current="page" href="https://www.google.com.ar">Home</a>
-        //                 </li>
-        //                 <li class="nav-item">
-        //                     <a class="nav-link" href="https://www.google.com.ar">
-        //                         Who we are
-        //                     </a>
-        //                 </li>
-        //                 <li class="nav-item">
-        //                     <a class="nav-link" href="https://www.google.com.ar">
-        //                         What we do
-        //                     </a>
-        //                 </li>
-        //                 <li class="nav-item">
-        //                     <a class="nav-link" href="https://www.google.com.ar">
-        //                         Contact Us
-        //                     </a>
-        //                 </li>
-        //             </ul>
-        //         </div>
-        //     </div>
-        // </nav>
-
         <nav class='navbar navbar-expand-md navbar-dark fixed-top bg-dark'>
-            <a class="navbar-brand" href="#">Carousel</a>
+            <a class="navbar-brand" href="#">Logo</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#">Who we are</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link disabled" href="#">Disabled</a>
+                    <a class="nav-link" href="#">What we do</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact us!</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
                 </li>
             </ul>
             <form class="form-inline mt-2 mt-md-0">
