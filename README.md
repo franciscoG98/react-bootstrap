@@ -1,5 +1,6 @@
 # I build this using:
-* [react bootstrap tutorial](https://www.youtube.com/watch?v=8pKjULHzs0s&t=272s)
+[react bootstrap tutorial](https://www.youtube.com/watch?v=8pKjULHzs0s&t=272s) to refresh some concepts.
+I've used [reactstrap](https://reactstrap.github.io/) for the carousel
 
 # Getting Started with Create React App
 

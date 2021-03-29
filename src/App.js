@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { Container, Row, Col, Button, Alert, Breadcrumb, Card, Form } from 'react-bootstrap';
 import Navbar from './components/Navbar';
+import Carousel from './components/Carousel';
 
 function App() {
   return (
@@ -16,7 +17,10 @@ function App() {
           <br />
           <br />
           <br />
-          <Form class='mt-5'>
+
+          <Carousel />
+
+          {/* <Form class='mt-5'>
             <Row>
               <Col md>
                 <Form.Group controlId='formEmail' >
@@ -64,7 +68,7 @@ function App() {
 
           <Alert variant='success'>This is another button</Alert>
 
-          <Button>Test</Button>
+          <Button>Test</Button> */}
         </Container>
 
 
