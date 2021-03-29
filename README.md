@@ -1,3 +1,6 @@
+# I build this using:
+* [react bootstrap tutorial](https://www.youtube.com/watch?v=8pKjULHzs0s&t=272s)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

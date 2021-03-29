@@ -2,7 +2,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { Container, Row, Col, Button, Alert, Breadcrumb, Card, Form } from 'react-bootstrap';
-
+import Navbar from './components/Navbar';
 
 function App() {
   return (
@@ -12,7 +12,11 @@ function App() {
         {/* <Container fluid> */}
         <Container>
 
-          <Form>
+          <Navbar />
+          <br />
+          <br />
+          <br />
+          <Form class='mt-5'>
             <Row>
               <Col md>
                 <Form.Group controlId='formEmail' >
