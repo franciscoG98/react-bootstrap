@@ -4,6 +4,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col, Button, Alert, Breadcrumb, Card, Form } from 'react-bootstrap';
 import Navbar from './components/Navbar';
 import Carousel from './components/Carousel';
+import WhoWeAre from './components/WhoWeAre';
+
+
 
 function App() {
   return (
@@ -19,6 +22,7 @@ function App() {
           <br />
 
           <Carousel />
+          <WhoWeAre />
 
           {/* <Form class='mt-5'>
             <Row>
